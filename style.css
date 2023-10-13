@@ -1,0 +1,19 @@
+.parent{
+	display: block;
+}
+.child{
+	margin: 0 auto; 
+}
+.container{
+	display: flex;
+	justify-content: space-between; 
+	align-items: center; 
+	padding: 10px; 	
+}
+html,body{
+	height: 100%; 
+	margin: 0; 
+	padding: 0; 
+	background-color: palevioletred;
+}
+	
