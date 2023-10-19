@@ -47,7 +47,7 @@ updateCanvas = () => {
 			var bright = mapNumberToRange(n, 0, maxIterations, 0, 1); 
 			bright = mapNumberToRange(Math.sqrt(bright),0,1,0,255);
 			if(n == maxIterations){
-			 bright = 200; 
+			 bright = 255; 
 			}
 			context.fillStyle= "rgb(" + bright + ", " + bright + ", " + bright + ")"; 
 			context.fillRect(x,y,1,1); 
