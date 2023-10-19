@@ -2,6 +2,9 @@
 	display: block;
 }
 .child{
+	display: block;
+	justify-content: center; 
+	align-items: center;
 	margin: 0 auto; 
 }
 .container{
@@ -10,10 +13,15 @@
 	align-items: center; 
 	padding: 10px; 	
 }
-html,body{
+.sliderValue{
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+}
+body{
 	height: 100%; 
 	margin: 0; 
 	padding: 0; 
-	background-color: palevioletred;
+	background-color: lavenderblush;
 }
 	

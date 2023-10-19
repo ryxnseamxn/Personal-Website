@@ -1,0 +1,41 @@
+
+body {
+margin: 0; 
+padding: 0; 
+font-family: Arial, sans-serif;
+background-color: mistyrose; 
+}
+.header{
+background-color: linen; 
+padding: 20px; 
+display: flex; 
+justify-content: space-between; 
+align-items: center; 
+}
+.logo{
+font-size: 24px; 
+font-weight: bold;
+width: 8vh; 
+height: auto; 
+}
+.container{
+display: flex; 
+align-items: center;
+justify-content: center;
+padding: 0px 50px; 
+height: 100vh; 
+}
+.image{
+flex: 1; 
+background: url('') no-repreat center center; 
+background-size: cover; 
+height: 100%; 
+}
+.text{
+flex: 1; 
+background-color: linen; 
+overflow-y: scroll;
+justify-content: center; 
+padding: 30px; 
+max-height: 100%; 
+}
