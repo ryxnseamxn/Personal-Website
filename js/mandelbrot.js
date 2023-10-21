@@ -4,21 +4,28 @@ mapNumberToRange = (number, fromMin, fromMax, toMin, toMax) => {
 	return mappedNumber;
 }
  
-var slider = document.getElementById("slider");
-var maxIterations = slider.value;
-updateSlider = () => {
-	var sliderValue = slider.value; 
-	maxIterations = sliderValue;
+var renderMoreButton = document.getElementById("renderButton"); 
+var renderLessButton = document.getElementById("unrenderButton");
+
+var maxIterations = 0; 
+
+renderMore = () => {
+	maxIterations += 1;
 	updateCanvas(); 
 }
+renderLess = () => {
+	if(maxIterations === 0){
+		return;
+	}
+	maxIterations -= 1;
+	updateCanvas();
+}
 
-slider.addEventListener("input", updateSlider); 
+renderMoreButton.addEventListener("click", renderMore); 
+renderLessButton.addEventListener("click", renderLess); 
 
 var c = document.getElementById("canvas");
 var context = c.getContext("2d"); 
-
-context.fillStyle='white'; 
-context.fillRect(0,0,c.width,c.height); 
 
 context.fillStyle = "black"; 
 updateCanvas = () => {
