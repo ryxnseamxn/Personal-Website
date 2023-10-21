@@ -1,0 +1,27 @@
+.parent{
+	display: block;
+}
+.child{
+	display: block;
+	justify-content: center; 
+	align-items: center;
+	margin: 0 auto; 
+}
+.container{
+	display: flex;
+	justify-content: space-between; 
+	align-items: center; 
+	padding: 10px; 	
+}
+.sliderValue{
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+}
+body{
+	height: 100%; 
+	margin: 0; 
+	padding: 0; 
+	background-color: lavenderblush;
+}
+	
