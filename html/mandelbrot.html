@@ -12,10 +12,14 @@
 		</div>
 	</div> 
 	<div class="container"> 
-		<div class="child">
-			<button id="renderButton">More Detail!</button> 
-			<button id="unrenderButton">Less detail!</button> 
+		<div class="container">
+			<button class="custom-button" id="renderButton">More Detail!</button>
+			<div class="container"></div>	
+			<button class="custom-button" id="unrenderButton">Less detail!</button> 
 		</div>
+	</div>
+	<div class="container">
+		<p class="text">The mandelbrot set is a mathematical figure known as a fractal. This means that, no matter how far you zoom in on any part of the fractal, it will always exhibit a property known as self-similarity. Unfortunately, I'm not at a point where I can render more detail as you zoom in on the fractal, but I did figure out how to implement the iterative generation formula using HTML, CSS, and Javascript. It works by taking a complex number input, squaring it, and then adding a constant term to the result from the first operation. Then, you take the result of that collective operation, and then use that for the complex number input like in the first part. Keep doing this, and you'll get one of a few different results. The black and grey parts of the graphic represent the complex number inputs that diverge to infinity. The white parts of the graph represent complex number inputs that oscillate between varying numbers of terms. As a note from myself, the notion of infinite sums converging to a value OTHER than infinity is by far one of the most fascinating mathematical wonders I've come to learn. 
 	</div>
 <script src="../js/mandelbrot.js"></script>		
 </body>

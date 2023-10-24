@@ -9,9 +9,9 @@
 }
 .container{
 	display: flex;
-	justify-content: space-between; 
+	justify-content: center; 
 	align-items: center; 
-	padding: 10px; 	
+	padding: 10px; 
 }
 .sliderValue{
 	display: flex;
@@ -24,4 +24,18 @@ body{
 	padding: 0; 
 	background-color: lavenderblush;
 }
-	
+.text{
+	font-family: "Times New Roman", Times, sans-serif;
+       	font-size: 20px;
+	width: 50%; 
+	text-align: center; 
+}
+.custom-button{
+	padding: 10px 50px; 
+	border-radius: 10px; 
+	background-color: brown;
+	color: #fff; 
+	font-size: 16px; 
+	border: none; 
+	cursor: pointer; 
+}
