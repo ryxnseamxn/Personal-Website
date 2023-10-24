@@ -2,7 +2,7 @@
 body {
 margin: 0; 
 padding: 0; 
-font-family: Arial, sans-serif;
+font-family: "Times New Roman",Times, sans-serif;
 background-color: mistyrose; 
 }
 .header{
@@ -38,4 +38,9 @@ overflow-y: scroll;
 justify-content: center; 
 padding: 30px; 
 max-height: 100%; 
+}
+.headshot{
+flex: 1; 
+width: auto; 
+height: 65vh; 
 }
