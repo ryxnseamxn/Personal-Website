@@ -41,7 +41,7 @@ body{
 }
 .header{
 background-color: linen; 
-padding: 20px; 
+padding: 1vh; 
 display: flex; 
 justify-content: space-between; 
 align-items: center; 
@@ -51,4 +51,7 @@ font-size: 24px;
 font-weight: bold;
 width: 8vh; 
 height: auto; 
+}
+a {
+padding: 0 2vh;
 }
