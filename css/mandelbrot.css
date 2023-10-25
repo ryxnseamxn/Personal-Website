@@ -26,16 +26,16 @@ body{
 }
 .text{
 	font-family: "Times New Roman", Times, sans-serif;
-       	font-size: 20px;
+       	font-size: 2vh;
 	width: 50%; 
 	text-align: center; 
 }
 .custom-button{
-	padding: 10px 50px; 
-	border-radius: 10px; 
+	padding: 1vh 5vh; 
+	border-radius: 10vh; 
 	background-color: brown;
 	color: #fff; 
-	font-size: 16px; 
+	font-size: 2vh; 
 	border: none; 
 	cursor: pointer; 
 }
@@ -54,4 +54,8 @@ height: auto;
 }
 a {
 padding: 0 2vh;
+}
+canvas {
+height: 80vh; 
+width: auto; 
 }
